@@ -1,0 +1,3 @@
+# Transcribed from the observed alerts.log output; not the original log bytes.
+[ALERT] 11/05/2026 19:37:38 | PowerShell Local User Discovery | SOC-LabUser | LOW
+[ALERT] 11/05/2026 19:44:42 | Scheduled Task Executed | \SOC-Lab-Notepad | INFO

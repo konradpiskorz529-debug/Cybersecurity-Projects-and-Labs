@@ -1,0 +1,19 @@
+title: PowerShell Local User Discovery
+id: 3c7bb886-9bdd-4be0-a046-24e215f5ded8
+status: experimental
+description: Detects local user enumeration using PowerShell Get-LocalUser.
+author: SOC Lab
+date: 2026-11-05
+logsource:
+    category: ps_script
+    product: windows
+detection:
+    selection:
+        ScriptBlockText|contains: 'Get-LocalUser'
+    condition: selection
+falsepositives:
+    - Legitimate administrative activity
+level: low
+tags:
+    - attack.discovery
+    - attack.t1087.001

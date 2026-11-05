@@ -1,0 +1,22 @@
+title: SOC Lab Scheduled Task Execution
+id: 2a8b849b-39d0-4374-94e6-a7c0d31f22be
+status: experimental
+description: Detects execution of the authorized SOC Lab Notepad scheduled task.
+author: SOC Lab
+date: 2026-11-05
+logsource:
+    product: windows
+    service: taskscheduler
+detection:
+    selection:
+        EventID: 200
+        TaskName: '\SOC-Lab-Notepad'
+        ActionName|endswith: '\notepad.exe'
+    condition: selection
+falsepositives:
+    - Authorized SOC lab simulation
+level: informational
+tags:
+    - attack.execution
+    - attack.persistence
+    - attack.t1053.005
