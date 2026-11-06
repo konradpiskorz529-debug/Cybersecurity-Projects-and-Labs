@@ -10,7 +10,7 @@ The projects demonstrate hands-on experience with security tools, Windows and Li
 
 ---
 
-## Featured Project — Windows Endpoint Forensics & SOC Detection Lab
+## Featured Project - Windows Endpoint Forensics & SOC Detection Lab
 
 **Security Monitoring | Incident Investigation | Detection Engineering**
 
