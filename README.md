@@ -35,7 +35,7 @@ A hands-on security laboratory designed to simulate, detect, and investigate sus
 
 ## Other Cybersecurity Projects
 
-### 1. Wazuh SIEM/XDR — Security Monitoring & Active Response
+### 1. Wazuh SIEM/XDR - Security Monitoring & Active Response
 
 Deployment and configuration of a security monitoring environment using Wazuh and Docker.
 
@@ -64,7 +64,7 @@ Designed and implemented a segmented network architecture with dedicated securit
 
 [View Project Report](Projekt-Koncowy2.pdf)
 
-### 3. WireGuard VPN — Secure Remote Access
+### 3. WireGuard VPN - Secure Remote Access
 
 Implementation of a secure remote-access VPN using WireGuard and Zero Trust-inspired network access principles.
 
