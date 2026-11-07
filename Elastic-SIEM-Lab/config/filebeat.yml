@@ -1,0 +1,13 @@
+
+filebeat.inputs:
+  - type: journald
+    id: kali-ssh-journal
+    seek: since
+    since: -3h
+    units:
+      - ssh.service
+    tags: ["ssh", "siem-lab"]
+
+output.elasticsearch:
+  hosts: ["http://127.0.0.1:9201"]
+
